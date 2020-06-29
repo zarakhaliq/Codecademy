@@ -1,0 +1,145 @@
+
+body {
+    margin:0px;
+    padding:0px;
+    font-family: Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color: black;
+    opacity:0.9;
+    text-align: center;
+    
+}
+
+.navbar{
+    height:69px;
+    width:100%;
+    margin-top:0;
+    margin-bottom:20px;
+    border-bottom:1px solid seashell;
+    position:fixed;
+    background-color:black;
+
+}
+.navbar img{
+    height:50px;
+    margin-top:10px;
+    margin-left:10px;
+    float:left;
+}
+
+nav a{
+    text-decoration: underline;
+    color: seashell;
+    list-style-type:none;
+    
+    margin-top:20px;
+    margin-right:20px;
+    list-style-type:none; 
+    
+
+}
+ul{
+    list-style-type: none;
+    float:right;
+}
+li{
+    display: inline;
+}
+
+#mission{
+    margin-top:73px;
+    margin-left:150px;
+    margin-right:150px;
+    background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: 110%;
+    background-repeat: none;
+    background-position: center;
+    height:700px;
+    width:95%;
+    text-align:center;
+    align-items: center;
+    display:inline-flex;
+    
+}
+.missionText{
+    
+    width:1200px;
+    text-align:center;
+    align-items:center;
+    margin: 0;
+    position: absolute;
+    top:60%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    justify-content: center;
+    background-color:black;
+
+}
+
+.images-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-left:200px;
+    margin-right:200px;
+    
+    
+    
+}
+.imageItem img{
+    width:300px;
+    height:200px;
+    justify-content:space-between;
+    
+}
+.imageItem h4{
+    
+    padding-bottom:10px;
+}
+
+.locations{
+
+    margin-top:80px;
+    background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin-left:150px;
+    margin-right:150px;
+ 
+}
+.locations h2{
+    padding-top:100px;
+}
+.container2{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    flex-wrap:wrap;y
+    
+    
+}
+
+.box{
+    background-color:black;
+    margin-bottom:100px;
+    margin-left:100px;
+    margin-right:100px;
+    opacity:1;
+    width: 300px;
+}
+.imageItem h4{
+    margin:10px;
+}
+.tea-heading{
+    margin-top:50px;
+}
+
+.footer{
+   margin-top:50px;
+   margin-left:20px;
+   text-align:left;
+    
+    
+}
